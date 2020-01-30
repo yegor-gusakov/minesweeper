@@ -1,0 +1,10 @@
+.minefield {
+  clear: both;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+  .column {
+    flex-direction: column;
+  }
+}
